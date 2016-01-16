@@ -1,0 +1,13 @@
+name: WaterLimiter
+main: com.mcjt.limiter.Main
+version: 2.1.1
+depend: [Residence]
+author: John180
+commands:
+  wlimit:
+    usage: /wlimit
+    description: 重载插件.
+permissions:
+    WaterLimiter.reload:
+      description: 普通用户权限
+      default: op
